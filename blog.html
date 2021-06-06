@@ -13,7 +13,11 @@ published: true
         {{ post.title }}
       </h1>
       <br>
+      {% if post.picture contains "http" %}
+      <img src="{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
+      {% else %}
       <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
+      {% endif %}
       <br>
       <p>{{ post.description }}</p>
       <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>
