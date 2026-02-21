@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Projects // Proyectos
-email: fernand0@elmundoesimperecto.com
+email: projects@elmundoesimperfecto.com
 description: >
   Colección de proyectos de software, bots, herramientas CLI y plugins
   desarrollados con Python, Vim, Errbot y otras tecnologías.
