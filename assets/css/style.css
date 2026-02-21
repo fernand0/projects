@@ -535,6 +535,11 @@ footer h3 {
     color: #ffffff;
 }
 
+#social-icons .btn-group svg {
+    fill: currentColor;
+    vertical-align: middle;
+}
+
 #social-icons .github:hover { color: #333; }
 #social-icons .mastodon:hover { color: #6364FF; }
 #social-icons .twitter:hover { color: #1DA1F2; }
