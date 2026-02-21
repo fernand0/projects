@@ -31,6 +31,9 @@ company_email: projects@elmundoesimperfecto.com
 facebook_link: http://www.facebook.com/fernando.tricas
 twitter_link: http://www.twitter.com/fernand0
 linkedin_link: http://www.linkedin.com/in/fernand0
+github_link: https://github.com/fernand0
+mastodon_link: https://mastodon.social/@fernand0
+bluesky_link: https://bsky.app/profile/fernand0.bsky.social
 
 # Build settings
 markdown: kramdown

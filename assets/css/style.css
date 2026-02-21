@@ -535,6 +535,13 @@ footer h3 {
     color: #ffffff;
 }
 
+#social-icons .github:hover { color: #333; }
+#social-icons .mastodon:hover { color: #6364FF; }
+#social-icons .twitter:hover { color: #1DA1F2; }
+#social-icons .bluesky:hover { color: #0085FF; }
+#social-icons .facebook:hover { color: #1877F2; }
+#social-icons .linkedin:hover { color: #0077B5; }
+
 .copyright {
     color: #fff;
     padding: 20px 0px 10px 0px;
