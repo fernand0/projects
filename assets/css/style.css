@@ -767,3 +767,108 @@ footer h3 {
     font-size: 14px;
   }
 }
+
+/* Shared Header Banner (green #004235 theme) */
+.header-banner {
+  background: linear-gradient(135deg, #004235 0%, #005c4a 100%);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+.header-banner .header-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: #fff;
+  font-weight: 400;
+}
+.header-banner .header-title a {
+  color: #fff;
+  text-decoration: none;
+}
+.header-banner .header-title a:hover {
+  opacity: 0.9;
+}
+.header-banner .header-tagline {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+.header-banner .header-explanation {
+  font-size: 0.75rem;
+  opacity: 0.85;
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media (min-width: 38em) {
+  .header-banner { padding: 0.875rem 2rem; }
+  .header-banner .header-title { font-size: 1.3rem; }
+  .header-banner .header-explanation { font-size: 0.85rem; }
+}
+
+/* Navigation */
+.site-nav {
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+}
+.site-nav .container { text-align: center; }
+.site-nav .nav-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.site-nav .nav-link:hover { color: #004235; background: #f0f0f0; }
+
+/* Hero section */
+#hero-section {
+  background: #004235 !important;
+  padding: 80px 0 !important;
+  color: white !important;
+  text-align: center !important;
+}
+.hero-title {
+  font-size: 48px !important;
+  margin-bottom: 20px !important;
+  font-weight: 300 !important;
+  color: white !important;
+}
+.hero-description {
+  font-size: 20px !important;
+  margin-bottom: 30px !important;
+  opacity: 0.9 !important;
+  color: white !important;
+}
+
+/* Site Footer */
+.site-footer {
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+  border-top: 3px solid #004235;
+  text-align: center;
+  background: #004235;
+  color: #fff;
+}
+.footer-social { margin-bottom: 1rem; }
+.footer-social a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.footer-social a:hover { opacity: 1; }
+.footer-social svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  fill: currentColor;
+}
+.footer-copyright {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.8);
+}
+.footer-copyright a { color: #fff; text-decoration: underline; }

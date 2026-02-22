@@ -2,17 +2,17 @@
 <html lang="en">
 
   {% include head.html %}
-  {% include header.html %}
-  {% include script.html %}
 
   <body>
+    {% include header.html %}
+
     <!-- Begin #hero-section -->
-    <section id="hero-section" class="section-global-wrapper" style="background: #004235; padding: 80px 0; color: white; text-align: center;">
+    <section id="hero-section" class="section-global-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h1 style="font-size: 48px; margin-bottom: 20px; font-weight: 300;">{{ site.title }}</h1>
-                    <p style="font-size: 20px; margin-bottom: 30px; opacity: 0.9;">{{ site.description }}</p>
+                    <h1 class="hero-title">{{ site.title }}</h1>
+                    <p class="hero-description">{{ site.description }}</p>
                 </div>
             </div>
         </div>
@@ -26,12 +26,12 @@
             <div class="row">
                 <div class="services-header">
                     <h3 class="services-header-title">Algunos proyectos</h3>
-                    <p class="services-header-body"><em> --- </em>  </p><hr>
+                    <p class="services-header-body"><em>--- </em></p><hr>
                 </div>
             </div>
 
             {% assign sorted_projects = site.projects | sort: "order" %}
-            
+
             <!-- Row 1 -->
             <div class="row services-row services-row-head services-row-1">
                 {% for project in sorted_projects limit: 3 %}
@@ -88,7 +88,6 @@
     </section>
     <!-- End #services-section -->
 
+    {% include footer.html %}
   </body>
-
-  {% include footer.html %}
 </html>
