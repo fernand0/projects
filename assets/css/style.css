@@ -772,13 +772,13 @@ footer h3 {
 .header-banner {
   background: linear-gradient(135deg, #004235 0%, #005c4a 100%);
   color: #fff;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   text-align: center;
   margin-bottom: 0;
 }
 .header-banner .header-title {
-  font-size: 1.8rem;
-  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
   color: #fff;
   font-weight: 400;
 }
@@ -790,39 +790,43 @@ footer h3 {
   opacity: 0.9;
 }
 .header-banner .header-tagline {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-style: italic;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
   opacity: 0.9;
 }
 .header-banner .header-explanation {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   opacity: 0.85;
   max-width: 600px;
   margin: 0 auto;
 }
 @media (min-width: 38em) {
-  .header-banner { padding: 1.25rem 2rem; }
-  .header-banner .header-title { font-size: 2.2rem; }
-  .header-banner .header-tagline { font-size: 1.3rem; }
-  .header-banner .header-explanation { font-size: 1.05rem; }
+  .header-banner { padding: 2rem 2rem; }
+  .header-banner .header-title { font-size: 3rem; }
+  .header-banner .header-tagline { font-size: 1.6rem; }
+  .header-banner .header-explanation { font-size: 1.2rem; }
 }
 
 /* Navigation */
 .site-nav {
   background: #f8f8f8;
   border-bottom: 1px solid #ddd;
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
 }
 .site-nav .container { text-align: center; }
 .site-nav .nav-link {
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   color: #333;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .site-nav .nav-link:hover { color: #004235; background: #f0f0f0; }
+@media (min-width: 38em) {
+  .site-nav .nav-link { font-size: 1.2rem; padding: 0.75rem 1.75rem; }
+}
 
 /* Hero section */
 #hero-section {
